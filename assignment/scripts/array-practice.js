@@ -8,7 +8,7 @@ let animalArray = ["fish", "cat", "bird", "dog", "alligator"];
 console.log("Animals are: ", animalArray);
 
 // 1.a. TODO: Make an array with some favorite foods
-let favFoods = ["Pizza", "Hotpot", "Ice cream", "Tamles"];
+let favFoods = ["Pizza", "Hotpot", "Ice cream", "Tamales"];
 
 // 1.b. TODO: Log your array of foods to the console with a message, similar
 //      to the example above
@@ -31,7 +31,7 @@ console.log("First animal is", animalArray[0]);
 // 3.a. TODO: Log the second animal in the array
 console.log("The second animal in the array is", animalArray[1]);
 // 3.b. TODO: Log the last animal in the array using it's array index
-console.log("The last animal in the array is", animalArray[3]);
+console.log("The last animal in the array is", animalArray[4]);
 // 3.c. (STRETCH) TODO: Log the last animal by using the array length,
 //      instead of the exact index number of the last item
 let lastElement = animalArray[animalArray.length - 1];
@@ -76,6 +76,9 @@ console.log("The food are now:", favFoods);
 // 4.e (STRETCH) TODO: Replace the second food in your array
 //      with another one of your favorite foods.
 //      Then log the updated array.
+
+favFoods.splice(1, 1, "Bananas", "apples", "pie");
+console.log(favFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
