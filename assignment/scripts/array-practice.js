@@ -77,11 +77,13 @@ console.log("The food are now:", favFoods);
 //      with another one of your favorite foods.
 //      Then log the updated array.
 
-favFoods.splice(1, 1, "Bananas", "apples", "pie");
+favFoods.splice(1, 1, "Bananas");
 console.log(favFoods);
 
 // 4.f (STRETCH) TODO: Sort your favoriteFoods array
 //     in reverse alphabetical order. Log the array.
+favFoods.sort().reverse();
+console.log(favFoods);
 
 // 4.g (STRETCH) TODO: Convert your array to a string
 //     putting the word "and" between each item.
